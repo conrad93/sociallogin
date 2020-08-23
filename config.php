@@ -12,10 +12,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('811481004870-qeo9ib86j6mg4f6vd4u87mi84laupmm2.apps.googleusercontent.com');
+$google_client->setClientId('811481004870-4l6fp7e23t28nmmk5vbnbd8bg5mp5gvd.apps.googleusercontent.com');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('Wua5fNbNrpHrZojoFjYVQYiX');
+$google_client->setClientSecret('ADfRXbxFiZQjgf7C0ys-mJak');
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('https://conrad-demo-sociallogin.herokuapp.com/');
