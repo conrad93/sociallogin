@@ -12,6 +12,6 @@ $google_client->revokeToken($_SESSION['access_token']);
 session_destroy();
 
 //redirect page to index.php
-header('location:index.php');
+header('location:http://conrad-demo-sociallogin.herokuapp.com/');
 
 ?>
