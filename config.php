@@ -18,7 +18,7 @@ $google_client->setClientId('811481004870-4l6fp7e23t28nmmk5vbnbd8bg5mp5gvd.apps.
 $google_client->setClientSecret('ADfRXbxFiZQjgf7C0ys-mJak');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://conrad-demo-sociallogin.herokuapp.com/');
+$google_client->setRedirectUri('http://conrad-demo-sociallogin.herokuapp.com/');
 
 // to get the email and profile 
 $google_client->addScope('email');
