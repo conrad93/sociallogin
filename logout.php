@@ -1,17 +1,9 @@
 <?php
 
-//logout.php
-
-include('config.php');
-
-//Reset OAuth access token
-// $google_client->revokeToken();
-$google_client->revokeToken($_SESSION['access_token']);
-
-//Destroy entire session data.
+require_once('config.php');
+// $google_client->revokeToken($_SESSION['access_token']);
+unset($_SESSION['access_token']);
 session_destroy();
-
-//redirect page to index.php
-header('location:index.php');
+header('location:login.php');
 
 ?>
